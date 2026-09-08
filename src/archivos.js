@@ -11,16 +11,5 @@ catch (error) {
  }
 }
 
-/*
-async function escribirTexto(ruta, contenido) {
-try {
-    const carpeta = path.dirname(ruta);
-    await fs.mkdir(carpeta, { recursive: true });
-    await fs.writeFile(ruta, contenido, "utf8");
-}   catch (error) {
-    console.error (`Error al escribir el archivo de texto: ${error.message}`);
-    }
-}*/
 
 module.exports = {leerJson};
-//, escribirTexto

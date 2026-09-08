@@ -16,10 +16,6 @@ async function main() {
 const app = express();
 const PORT = 3000;
 
-/*app.get("/", (req,res) => {
-    //res.send("API disponible");
-    res.json({ mensaje: "API de series disponible" });
-}); */
 
 
 app.get("/", (req, res) => {
@@ -46,26 +42,8 @@ app.get("/api/instrumentos", (req, res) => {
 });
 
 
-/*
-app.get('/instrumentos', async (req, res) => {
-    const instrumentos = await leerJson(rutaDatos);
-    if (!instrumentos) {
-    throw new Error("No se pudieron obtener los instrumentos");
-    }
-
-//Busca por Nombre
-    const nombre = req.query.nombre;
-    if (nombre) {
-        const resultado = instrumentos.filter(
-            instrumento => instrumento.nombre.toLowerCase() === nombre.toLowerCase()
-        );
-        return res.json(resultado);
-    }
-    res.json(instrumentos);
-});*/
-
 //Buscar por id
-app.get('/instrumentos/:id', async (req, res) => {
+app.get('/api/instrumentos/:id', async (req, res) => {
     const instrumentos = await leerJson(rutaDatos)
     const id = Number(req.params.id);
     const instrumento = instrumentos.find(
@@ -78,9 +56,6 @@ app.get('/instrumentos/:id', async (req, res) => {
     }
     res.json(instrumento);
 });
-
-
-
 
 
 
