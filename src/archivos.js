@@ -11,6 +11,7 @@ catch (error) {
  }
 }
 
+/*
 async function escribirTexto(ruta, contenido) {
 try {
     const carpeta = path.dirname(ruta);
@@ -19,6 +20,7 @@ try {
 }   catch (error) {
     console.error (`Error al escribir el archivo de texto: ${error.message}`);
     }
-}
+}*/
 
-module.exports = {leerJson, escribirTexto};
+module.exports = {leerJson};
+//, escribirTexto
