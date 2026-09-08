@@ -1,0 +1,52 @@
+CATÁLOGO DE JUEGOS DE MESA
+==========================
+    
+    =========================================
+    Juego: undefined
+    =========================================
+    Editorial: undefined 
+    Año: undefined
+    Jugadores mínimo: undefined Máximo: undefined
+    Categorías: undefined
+    Disponible: Si
+
+    =========================================
+    Juego: undefined
+    =========================================
+    Editorial: undefined 
+    Año: undefined
+    Jugadores mínimo: undefined Máximo: undefined
+    Categorías: undefined
+    Disponible: Si
+
+    =========================================
+    Juego: undefined
+    =========================================
+    Editorial: undefined 
+    Año: undefined
+    Jugadores mínimo: undefined Máximo: undefined
+    Categorías: undefined
+    Disponible: Si
+
+    =========================================
+    Juego: undefined
+    =========================================
+    Editorial: undefined 
+    Año: undefined
+    Jugadores mínimo: undefined Máximo: undefined
+    Categorías: undefined
+    Disponible: Si
+
+    =========================================
+    Juego: undefined
+    =========================================
+    Editorial: undefined 
+    Año: undefined
+    Jugadores mínimo: undefined Máximo: undefined
+    Categorías: undefined
+    Disponible: Si
+
+   ####################################
+    Cantidad de juegos: 5
+   ####################################
+   
